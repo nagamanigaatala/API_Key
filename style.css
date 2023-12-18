@@ -1,0 +1,38 @@
+    .search-button {
+        background-color: #e74c3c;
+        color: #fff;
+    }
+
+    .api-button {
+        background-color: #3498db;
+        color: #fff;
+    }
+
+    #news-container {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+
+    .news-item {
+        padding: 20px;
+        background-color: #3498db;
+        color: #fff;
+        border-radius: 8px;
+    }
+
+    .news-item h2 {
+        margin-bottom: 10px;
+        color: #fff;
+    }
+
+    .news-item p {
+        color: #ddd;
+    }
+
+    @media (max-width: 768px) {
+        #news-container {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
